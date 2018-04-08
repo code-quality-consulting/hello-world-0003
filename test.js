@@ -1,10 +1,7 @@
 const assert = require("assert");
 
-function makeGreeting(name) {
-    if(name) {
+function makeGreeting(name = "world") {
          return "Hello " + name + "!";
-    }
-    return "Hello world!";
 }
 
 assert.strictEqual(makeGreeting(),"Hello world!");
