@@ -1,7 +1,6 @@
 /*jslint
     node
 */
-"use strict";
 import assert from "assert";
 
 function makeGreeting(name = "world") {
